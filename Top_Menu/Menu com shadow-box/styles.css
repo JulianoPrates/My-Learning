@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+}
+*{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+.container {
+  display: flex;
+  margin: 0;
+  padding: 0.5rem 2rem;
+  justify-content: flex-end;
+  background-color: black;
+}
+.menu {
+  height: 8rem;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.lista {
+  margin: 0.7rem;
+  padding: 0.1rem;
+  padding-top: 10px;
+  padding-left: 9px;
+  padding-bottom: 10px;
+  padding-right: 9px;
+  display: inline-flex;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px 1px black, 15px 15px 10px rgb(92, 0, 128);
+}
+.row {
+  margin: 0;
+  border-radius: 15px;
+  font-size: 3.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  cursor: pointer;
+}
+.row:hover{
+  transform: scale(1.05);
+}
